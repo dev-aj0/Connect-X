@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes dropToken {
+  0% {
+    transform: translateY(-300px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-drop-0 {
+  animation: dropToken 0.3s ease-in;
+}
+
+.animate-drop-1 {
+  animation: dropToken 0.4s ease-in;
+}
+
+.animate-drop-2 {
+  animation: dropToken 0.5s ease-in;
+}
+
+.animate-drop-3 {
+  animation: dropToken 0.6s ease-in;
+}
+
+.animate-drop-4 {
+  animation: dropToken 0.7s ease-in;
+}
+
+.animate-drop-5 {
+  animation: dropToken 0.8s ease-in;
+}
